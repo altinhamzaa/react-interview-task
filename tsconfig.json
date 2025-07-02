@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "jsx": "react-jsx", 
+    "noEmit": true,
+    "types": ["vitest", "@testing-library/jest-dom"]
+  },
+  "include": ["src", "tests"]
+}

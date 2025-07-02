@@ -1,0 +1,23 @@
+.bg-purple {
+  background-color: #9b59b6 !important; 
+  color: white;
+}
+.dropdown-item.hover-success:hover {
+  background-color: #198754 !important; 
+  color: white !important;
+}
+
+.dropdown-item.hover-warning:hover {
+  background-color: #ffc107 !important; 
+  color: white !important;
+}
+
+.dropdown-item.hover-purple:hover {
+  background-color: #6f42c1 !important; 
+  color: white !important;
+}
+
+.bg-purple {
+  background-color: #6f42c1 !important;
+  color: white;
+}

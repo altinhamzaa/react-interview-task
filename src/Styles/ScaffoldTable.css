@@ -1,0 +1,66 @@
+.scaffold-table-simple-outer {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px 0 rgba(60, 60, 60, 0.04);
+  margin: 0 0 0 0;
+  padding: 0;
+  width: 100%;
+  min-height: 380px;
+  border: none;
+  /* Remove dashed border, just soft shadow and rounded corners */
+}
+
+.scaffold-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  padding: 0 0 8px 0;
+}
+
+.scaffold-table-simple {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 15px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.scaffold-table-simple thead tr th {
+  background: #f5f5f7;
+  font-weight: 500;
+  padding: 10px 8px;
+  text-align: left;
+  border-bottom: 1.5px solid #e5e7eb;
+  color: #222;
+}
+
+.scaffold-table-simple tbody tr {
+  background: #fff;
+  border-radius: 7px;
+  transition: background 0.13s;
+}
+
+.scaffold-table-simple tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.scaffold-table-simple tbody tr td {
+  padding: 10px 8px;
+  color: #222;
+  vertical-align: middle;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.scaffold-table-simple tbody tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 900px) {
+  .scaffold-table-simple-outer {
+    padding: 0;
+  }
+  .scaffold-table-wrapper {
+    padding: 0 3px 8px 3px;
+  }
+}
